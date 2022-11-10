@@ -43,23 +43,23 @@ namespace doga
 
             //2.
 
-            List<string> lista2 = new List<string>();
+            //List<string> lista2 = new List<string>();
 
-            StreamReader be2 = new StreamReader("parok.txt");
+            //StreamReader be2 = new StreamReader("parok.txt");
 
-            while (!be2.EndOfStream)
-            {
-                lista2.Add(be2.ReadLine());
-            }
+            //while (!be2.EndOfStream)
+            //{
+            //    lista2.Add(be2.ReadLine());
+            //}
 
-            string adatok = Convert.ToString(lista2);
+            //string adatok = Convert.ToString(lista2);
 
-            string[] szoveg = adatok.Split(';');
+            //string[] szoveg = adatok.Split(';');
 
-            foreach (string section in szoveg)
-            {
-                Console.WriteLine(Convert.ToInt32(section.ToString()));
-            }
+            //foreach (string section in szoveg)
+            //{
+            //    Console.WriteLine(Convert.ToInt32(section.ToString()));
+            //}
 
 
 
